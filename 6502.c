@@ -4,3 +4,8 @@ uint8_t A       // Accumulator
 uint8_t X       // Index Register X
 uint8_t Y       // Index Register Y
 uint8_t P       // Processor Status
+
+void init_cpu()
+{
+    A = X = Y = 0;
+}
